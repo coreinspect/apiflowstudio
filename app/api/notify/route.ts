@@ -131,7 +131,7 @@ export async function POST(request: Request) {
         <body>
           <div class="container">
             <div class="header">
-              <img src="/apiflowstudiologo.png" alt="API Flow Studio Logo">
+              <img src="https://apiflowstudio.com/apiflowstudiologo.png" alt="API Flow Studio Logo">
             </div>
             <div class="content">
               <h1>Thanks for your interest in API Flow Studio!</h1>
