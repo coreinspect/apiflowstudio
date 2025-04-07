@@ -116,7 +116,7 @@ export async function POST(request: Request) {
             .button {
               display: inline-block;
               background-color: #4F46E5;
-              color: white;
+              color: #ffffff;
               text-decoration: none;
               padding: 12px 24px;
               border-radius: 4px;
