@@ -10,17 +10,24 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-customblue: var(--custom-blue);
+  --color-customblack: var(--custom-black);
+  --color-placeholder: var(--placeholder);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --custom-blue: #0e40b0;
+    --custom-black: #1e293b;
+    --placeholder: #d1d5db;
+    --font-poppins: var(--poppins-font);
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--poppins-font);
 }
