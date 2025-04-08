@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
     // Send notification email
     const data = await resend.emails.send({
-      from: "API Flow Studio <onboarding@apiflowstudio.com>", // Use the default Resend sender initially
+      from: "API Flow Studio <support@apiflowstudio.com>", // Use the default Resend sender initially
       to: [email],
       subject: "API Flow Studio Launch Notification",
       html: `
